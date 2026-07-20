@@ -1,5 +1,13 @@
 import { motion } from "framer-motion";
 
+import selectplus from "../assets/selectplus.png";
+import shakenCRM from "../assets/shaken-crm.png";
+import lolas from "../assets/lolas.png";
+import shakenSpirit from "../assets/shaken-spirit.png";
+import handyman from "../assets/handyman.png";
+import realtor from "../assets/realtor.png";
+import dentist from "../assets/dentist.png";
+
 const projects = [
   {
     id: "01",
@@ -8,7 +16,7 @@ const projects = [
     description:
       "Enterprise platform built with React and TypeScript for managing products, orders, users and business operations through modern dashboards and reusable components.",
     tech: ["React", "TypeScript", "Tailwind CSS"],
-    image: "src/assets/selectplus.png",
+    image: selectplus,
     github: "",
     live: "",
   },
@@ -20,7 +28,7 @@ const projects = [
     description:
       "Business CRM focused on customer management, projects and internal workflows with a clean and scalable user interface.",
     tech: ["React", "TypeScript", "Tailwind CSS"],
-    image: "src/assets/shaken-crm.png",
+    image: shakenCRM,
     github: "",
     live: "",
   },
@@ -32,7 +40,7 @@ const projects = [
     description:
       "Premium restaurant website featuring custom WordPress development, ACF integration, responsive design and engaging user experience.",
     tech: ["WordPress", "PHP", "ACF", "JavaScript"],
-    image: "src/assets/lolas.png",
+    image: lolas,
     github: "",
     live: "https://eatlolasnow.com/",
   },
@@ -44,7 +52,7 @@ const projects = [
     description:
       "Corporate website focused on branding, modern design and responsive development using WordPress.",
     tech: ["WordPress", "PHP", "CSS", "JavaScript"],
-    image: "src/assets/shaken-spirit.png",
+    image: shakenSpirit,
     github: "",
     live: "https://shakenspirit.com/",
   },
@@ -56,7 +64,7 @@ const projects = [
     description:
       "Professional business website optimized for performance, SEO and lead generation with a modern responsive layout.",
     tech: ["WordPress", "PHP", "CSS"],
-    image: "src/assets/handyman.png",
+    image: handyman,
     github: "",
     live: "https://handyman.machmedianj.com/",
   },
@@ -68,7 +76,7 @@ const projects = [
     description:
       "Real estate website designed to showcase properties through a clean interface and responsive user experience.",
     tech: ["WordPress", "PHP", "JavaScript"],
-    image: "src/assets/realtor.png",
+    image: realtor,
     github: "",
     live: "https://realstate.machmedianj.com/",
   },
@@ -80,7 +88,7 @@ const projects = [
     description:
       "Modern dental clinic website focused on accessibility, patient engagement and responsive design.",
     tech: ["WordPress", "PHP", "CSS"],
-    image: "src/assets/dentist.png",
+    image: dentist,
     github: "",
     live: "https://dentist.machmedianj.com/",
   },
