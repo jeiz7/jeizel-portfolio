@@ -14,12 +14,12 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-black">
-      {/* Glow fondo */}
+      {/* Background Glow */}
       <div className="absolute pointer-events-none top-40 right-20 h-72 w-72 rounded-full bg-red-600/20 blur-[150px]" />
 
-      <div className="absolute pointer-events-none bottom-20 left-10 h-56 w-56 rounded-full bg-red-500/10 blur-[120px]" />    
+      <div className="absolute pointer-events-none bottom-20 left-10 h-56 w-56 rounded-full bg-red-500/10 blur-[120px]" />
 
-      {/* Grid tecnológico sutil */}
+      {/* Subtle Tech Grid */}
       <div
         className="
           absolute inset-0
@@ -32,28 +32,30 @@ export default function Hero() {
 
       <div className="relative z-10 container mx-auto px-8 lg:px-20 pt-24">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Texto */}
+
+          {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            {/* Available */}
+
+            {/* Availability */}
             <div className="inline-flex items-center gap-2 border border-green-500/20 bg-green-500/10 px-4 py-2 rounded-full mb-8">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
 
               <span className="text-sm text-green-300">
-                Disponiponible para nuevos proyectos
+                Available for new projects
               </span>
             </div>
 
             <div>
-              <span className="text-red-500 tracking-[6px] text-sm">
-                HOLA, SOY
+              <span className="text-red-500 tracking-[6px] text-sm uppercase">
+                HELLO, I'M
               </span>
             </div>
 
-            {/* Nombre */}
+            {/* Name */}
             <h1
               className="
                 mt-4
@@ -76,23 +78,23 @@ export default function Hero() {
 
             {/* Roles */}
             <div className="mt-8 flex flex-wrap items-center gap-3 text-lg md:text-xl text-zinc-300">
-              <span>Desarrolladora y programadora Front-End</span>
+              <span>Front-End Developer</span>
 
               <span className="text-red-500">•</span>
 
-              <span>Desarrolladora y diseñadora Web</span>
+              <span>Web Developer & Designer</span>
 
               <span className="text-red-500">•</span>
 
-              <span>Ingeniera en ciencias de la Computación</span>
+              <span>Computer Science Engineer</span>
             </div>
 
-            {/* Descripción */}
+            {/* Description */}
             <p className="mt-8 max-w-xl text-gray-400 leading-relaxed text-lg">
-              Ingeniera en Ciencias de la Computación especializada en
-              desarrollo web, Front-end y creación de experiencias
-              digitales modernas. Combino diseño y tecnología para crear
-              soluciones funcionales, atractivas y escalables.
+              Computer Science Engineer specializing in Front-End
+              development and modern web applications. I combine
+              design and technology to build scalable, functional,
+              and engaging digital experiences.
             </p>
 
             {/* Tech Pills */}
@@ -119,9 +121,10 @@ export default function Hero() {
               ))}
             </div>
 
-            {/* Botones */}
+            {/* Buttons */}
             <div className="mt-10 flex flex-wrap gap-4">
-              <button
+
+              <a href="#projects"
                 className="
                   border
                   border-red-500
@@ -133,10 +136,12 @@ export default function Hero() {
                   transition
                 "
               >
-                Ver Proyectos
-              </button>
+                View Projects
+              </a>
 
-              <button
+              <a
+                href="src/assets/resume/Jeizel-Savillon-Resume.pdf"
+                download
                 className="
                   border
                   border-white/10
@@ -146,34 +151,36 @@ export default function Hero() {
                   hover:border-white
                   hover:bg-white/5
                   transition
+                  inline-flex
+                  items-center
+                  justify-center
                 "
               >
-                Descargar CV
-              </button>
+                Download Resume
+              </a>
 
             </div>
 
-            {/* Redes */}
+            {/* Social */}
             <div className="flex gap-6 mt-10 text-2xl text-zinc-400">
               <FaGithub className="cursor-pointer hover:text-red-500 transition" />
 
               <FaLinkedin className="cursor-pointer hover:text-red-500 transition" />
             </div>
+
           </motion.div>
 
-          {/* Foto */}
+          {/* Photo */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             className="relative flex justify-center"
           >
-            {/* Círculos */}
             <div className="absolute h-[450px] w-[450px] rounded-full border border-red-500/40" />
 
             <div className="absolute h-[550px] w-[550px] rounded-full border border-white/10" />
 
-            {/* Glow detrás */}
             <div className="absolute h-[400px] w-[400px] rounded-full bg-red-600/10 blur-[100px]" />
 
             <img
@@ -193,6 +200,7 @@ export default function Hero() {
               "
             />
           </motion.div>
+
         </div>
       </div>
     </section>

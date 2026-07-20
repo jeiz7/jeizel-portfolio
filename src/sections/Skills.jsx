@@ -6,7 +6,6 @@ import {
   FaFigma,
 } from "react-icons/fa";
 
-
 const skillCategories = [
   {
     title: "Front-End",
@@ -18,7 +17,7 @@ const skillCategories = [
       "TypeScript",
       "HTML5",
       "CSS3",
-      "Tailwind",
+      "Tailwind CSS",
     ],
   },
 
@@ -34,20 +33,20 @@ const skillCategories = [
   },
 
   {
-    title: "Diseño",
+    title: "Design",
     icon: <FaFigma size={35} />,
     skills: [
-      "Photoshop",
-      "Illustrator",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
       "Figma",
       "Branding",
       "UI/UX",
-      "Marketing Visual",
+      "Visual Marketing",
     ],
   },
 
   {
-    title: "Herramientas",
+    title: "Tools",
     icon: <FaGitAlt size={35} />,
     skills: [
       "Git",
@@ -67,7 +66,8 @@ export default function Skills() {
       className="relative py-32 px-8 lg:px-20 border-t border-white/5"
     >
       <div className="max-w-7xl mx-auto">
-        {/* Título */}
+
+        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -75,22 +75,22 @@ export default function Skills() {
           transition={{ duration: 0.8 }}
           className="mb-20"
         >
-          <span className="text-red-500 tracking-[4px] text-sm">
-            02 / HABILIDADES
+          <span className="text-red-500 tracking-[4px] text-sm uppercase">
+            02 / SKILLS
           </span>
 
           <h2 className="mt-6 text-5xl md:text-7xl font-black">
-            Tecnologías &
+            Technologies
             <br />
             <span className="text-red-500">
-              Herramientas
+              & Tools
             </span>
           </h2>
 
           <p className="mt-6 max-w-2xl text-zinc-400 text-lg leading-relaxed">
-            Mi experiencia combina desarrollo Front-End, diseño gráfico y
-            soluciones empresariales utilizando tecnologías modernas para
-            crear productos digitales funcionales, escalables y visualmente atractivos.
+            My experience combines Front-End development, graphic design,
+            and business solutions using modern technologies to build
+            functional, scalable, and visually engaging digital products.
           </p>
         </motion.div>
 
@@ -145,6 +145,7 @@ export default function Skills() {
             </motion.div>
           ))}
         </div>
+
       </div>
     </section>
   );

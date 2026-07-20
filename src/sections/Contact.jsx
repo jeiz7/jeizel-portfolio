@@ -228,7 +228,7 @@ export default function Contact() {
             </div>
 
             <a
-              href="/Jeizel-Savillon-CV.pdf"
+              href="src/assets/resume/Jeizel-Savillon-Resume.pdf"
               download
               className="
                 inline-flex
