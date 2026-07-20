@@ -208,7 +208,7 @@ export default function Contact() {
               <div className="flex gap-5 text-3xl">
 
                 <a
-                  href="https://github.com/YOUR_GITHUB"
+                  href="https://github.com/jeiz7"
                   target="_blank"
                   className="hover:text-red-500 transition"
                 >
@@ -216,7 +216,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/YOUR_LINKEDIN"
+                  href="linkedin.com/in/jeizel-d-savillón-ab1a422b8"
                   target="_blank"
                   className="hover:text-red-500 transition"
                 >
