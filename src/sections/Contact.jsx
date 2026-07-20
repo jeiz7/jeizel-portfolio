@@ -216,7 +216,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="linkedin.com/in/jeizel-d-savillón-ab1a422b8"
+                  href="https://www.linkedin.com/in/jeizel-d-savillón-ab1a422b8/"
                   target="_blank"
                   className="hover:text-red-500 transition"
                 >
