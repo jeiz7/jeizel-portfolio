@@ -37,10 +37,20 @@ export default function Navbar() {
 
         </nav>
 
-        <button className="border border-red-500 px-5 py-2 rounded-lg hover:bg-red-500 transition">
+        <a
+          href="#contact"
+          className="
+            border
+            border-red-500
+            px-5
+            py-2
+            rounded-lg
+            hover:bg-red-500
+            transition
+          "
+        >
           Let's Talk
-        </button>
-
+        </a>
       </div>
     </header>
   );
