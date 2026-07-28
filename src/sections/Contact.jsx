@@ -211,6 +211,7 @@ export default function Contact() {
                   href="https://github.com/jeiz7"
                   target="_blank"
                   className="hover:text-red-500 transition"
+                  rel="noopener noreferrer"
                 >
                   <FaGithub/>
                 </a>
@@ -219,6 +220,7 @@ export default function Contact() {
                   href="https://www.linkedin.com/in/jeizel-d-savillón-ab1a422b8/"
                   target="_blank"
                   className="hover:text-red-500 transition"
+                  rel="noopener noreferrer"
                 >
                   <FaLinkedin/>
                 </a>
@@ -227,24 +229,23 @@ export default function Contact() {
 
             </div>
 
-            <a
-              href="src/assets/resume/Jeizel-Savillon-Resume.pdf"
-              download
-              className="
-                inline-flex
-                items-center
-                gap-3
-                mt-8
-                px-6
-                py-4
-                rounded-xl
-                border
-                border-white/10
-                hover:border-red-500
-                hover:text-red-500
-                transition
-              "
-            >
+             <a
+                href="/resume/Jeizel-Savillon-Resume.pdf"
+                download
+                className="
+                  border
+                  border-white/10
+                  px-8
+                  py-4
+                  rounded-xl
+                  hover:border-white
+                  hover:bg-white/5
+                  transition
+                  inline-flex
+                  items-center
+                  justify-center
+                "
+              >
 
               <FaDownload/>
 

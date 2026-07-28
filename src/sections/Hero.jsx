@@ -140,7 +140,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="src/assets/resume/Jeizel-Savillon-Resume.pdf"
+                href="/resume/Jeizel-Savillon-Resume.pdf"
                 download
                 className="
                   border
